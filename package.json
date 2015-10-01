@@ -1,0 +1,39 @@
+{
+  "name": "redux-devtools-ui",
+  "version": "0.8.0",
+  "description": "Redux Devtools UI component for better default experience",
+  "main": "redux-devtools.js",
+  "scripts": {
+    "build": "babel index.js -o redux-devtools.js",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "redux-devtools.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/iamdustan/redux-devtools-ui.git"
+  },
+  "keywords": [
+    "redux",
+    "devtools",
+    "redux-devtools"
+  ],
+  "author": "Dustan Kasten <dustan.kasten@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamdustan/redux-devtools-ui/issues"
+  },
+  "homepage": "https://github.com/iamdustan/redux-devtools-ui#readme",
+  "dependencies": {
+    "react-popout": "^0.4.0"
+  },
+  "peerDependencies": {
+    "redux": "^3.0.0",
+    "redux-devtools": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}
