@@ -13,7 +13,7 @@ const DockIcon = ({
   height = 16,
   color = 'rgb(79, 90, 101)'
 }) => (
-  <svg width={width} height={height} viewbox={`0 0 ${width} ${height}`}>
+  <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`}>
     <line x1={0} y1={0} x2={0} y2={height} strokeWidth={width / 4} stroke={color} />
     <line x1={0} y1={0} x2={width} y2={0} strokeWidth={width / 4} stroke={color} />
     <line x1={0} y1={height} x2={width} y2={height} strokeWidth={width / 4} stroke={color} />
@@ -27,7 +27,7 @@ const PopoutIcon = ({
   strokeWidth = 2,
   color = 'rgb(79, 90, 101)'
 }) => (
-  <svg width={width} height={height} viewbox={`0 0 ${width} ${height}`}>
+  <svg width={width} height={height} viewBox={`0 0 ${width} ${height}`}>
     <line x1={0} y1={strokeWidth * 3} x2={strokeWidth * 1.5} y2={strokeWidth * 3} strokeWidth={strokeWidth} stroke={color} />
     <line x1={strokeWidth / 2} y1={strokeWidth * 3} x2={strokeWidth / 2} y2={height} strokeWidth={strokeWidth} stroke={color} />
     <line x1={strokeWidth / 2} y1={height - strokeWidth / 2} x2={width - strokeWidth * 2} y2={height - strokeWidth / 2} strokeWidth={strokeWidth} stroke={color} />
